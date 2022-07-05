@@ -46,11 +46,73 @@ h4 {
     border-radius: 3px;
     background-color: aliceblue;
     font-size: 30px;
-    margin: 10px;
+    margin: 20px;
 
 }
 
 .red {
     background-color: rgb(242, 129, 129);
     border: 2px solid crimson
+}
+
+#input {
+    background-color: white;
+    border-bottom: 1px solid lightslategray;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.food {
+    display: inline-table;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    text-align: left;
+    height: 350px;
+    width: 500px;
+    padding: 50px 30px 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.shelter {
+    display: inline-table;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    text-align: left;
+    height: 350px;
+    width: 500px;
+    padding: 50px 30px 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: lightpink;
+    font-size: 20px;
+    margin: 20px
+}
+
+.education {
+    display: inline-table;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    text-align: left;
+    height: 350px;
+    width: 500px;
+    padding: 50px 30px 30px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+    margin: 20px
+}
+
+.font-size {
+    font-size: 20px;
 }
