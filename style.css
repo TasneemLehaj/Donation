@@ -30,6 +30,7 @@ h4 {
 
 .center {
     text-align: center;
+    margin-top: 80px;
 }
 
 .black {
@@ -57,7 +58,7 @@ h4 {
 
 #input {
     background-color: white;
-    border-bottom: 1px solid lightslategray;
+    border-bottom: 2px solid lightslategray;
 }
 
 .flexible-container {
@@ -115,4 +116,19 @@ h4 {
 
 .font-size {
     font-size: 20px;
+}
+
+.goal {
+    display: flex;
+    margin-top: 50px;
+}
+
+#resize {
+    height: 500px;
+    width: 450x;
+    margin-left: 10px;
+}
+
+.margin {
+    margin-right: 40px;
 }
